@@ -164,6 +164,7 @@
                         <span
                             class="carousel-control-prev-icon"
                             aria-hidden="true"
+                            tabindex="6"
                         ></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
@@ -363,15 +364,26 @@
                         </p>
                         <form method="post">
                             <label for="nom">Nom</label>
-                            <input type="text" name="nom" id="nom" />
+                            <input
+                                type="text"
+                                name="nom"
+                                id="nom"
+                                placeholder="Renseignez votre nom"
+                            />
                             <label for="email">Email</label>
-                            <input type="email" name="email" id="email" />
+                            <input
+                                type="email"
+                                name="email"
+                                id="email"
+                                placeholder="Inserez votre Email"
+                            />
                             <label for="message">Message</label>
                             <textarea
                                 name="message"
                                 id="message"
                                 cols="30"
                                 rows="10"
+                                placeholder="Votre message"
                             ></textarea>
                             <input type="submit" value="Envoyer" />
                         </form>
