@@ -71,6 +71,7 @@ body {
 
 .picture img {
 	width: 100%;
+	height: auto;
 
 }
 
@@ -97,7 +98,7 @@ body {
 }
 
 #gallery {
-	/*	min-height: 100vh; */
+	min-height: 100vh;
 }
 
 .title {
