@@ -3,6 +3,7 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta charset="UTF-8" />
+        <link rel="stylesheet" href="./assets/bootstrap/bootstrap.css" />
         <meta
             name="description"
             content="Vous cherchez une professionnelle de la photographie sur Bordeaux pour immortaliser vos plus beaux moments ? Que ce soit en famille ou seul(e), vous êtes au bon endroit ! "
@@ -77,7 +78,6 @@
                 "sameAs": ["https://www.instagram.com/ninacarducci.photo"]
             }
         </script>
-        <link rel="stylesheet" href="./assets/bootstrap/bootstrap.css" />
     </head>
     <body>
         <header class="top-header">
@@ -209,10 +209,13 @@
             <section>
                 <div id="about">
                     <div class="picture left">
-                        <img
-                            src="./assets/images/nina.webp"
-                            alt="Nina Carducci"
-                        />
+                        <picture>
+                            <source srcset="./assets/images/nina-mobile.webp" />
+                            <img
+                                src="./assets/images/nina.webp"
+                                alt="Nina Carducci"
+                            />
+                        </picture>
                     </div>
                     <div id="about-me">
                         <h2 class="about-me__title">A propos de moi</h2>
@@ -246,54 +249,63 @@
                             <img
                                 data-gallery-tag="Concert"
                                 class="gallery-item"
+                                loading="lazy"
                                 src="./assets/images/gallery/concerts/aaron-paul.webp"
                                 alt="Concert"
                             />
                             <img
                                 data-gallery-tag="Entreprises"
                                 class="gallery-item"
+                                loading="lazy"
                                 src="./assets/images/gallery/entreprise/ali-morshedlou.webp"
                                 alt="Homme d'affaire"
                             />
                             <img
                                 data-gallery-tag="Entreprises"
                                 class="gallery-item"
+                                loading="lazy"
                                 src="./assets/images/gallery/entreprise/jason-goodman.webp"
                                 alt="Femme qui sourit"
                             />
                             <img
                                 data-gallery-tag="Mariages"
                                 class="gallery-item"
+                                loading="lazy"
                                 src="./assets/images/gallery/mariage/hannah-busing.webp"
                                 alt="mains dans les mains"
                             />
                             <img
                                 data-gallery-tag="Portrait"
                                 class="gallery-item"
+                                loading="lazy"
                                 src="./assets/images/gallery/portraits/ade-tunji.webp"
                                 alt="Un Homme ébloui par le soleil"
                             />
                             <img
                                 data-gallery-tag="Mariages"
                                 class="gallery-item"
+                                loading="lazy"
                                 src="./assets/images/gallery/mariage/jakob-owens.webp"
                                 alt="Deux mariés se regardent"
                             />
                             <img
                                 data-gallery-tag="Portrait"
                                 class="gallery-item"
+                                loading="lazy"
                                 src="./assets/images/gallery/portraits/nino-van.webp"
                                 alt="Une Femme regardant vers le bas"
                             />
                             <img
                                 data-gallery-tag="Concert"
                                 class="gallery-item"
+                                loading="lazy"
                                 src="./assets/images/gallery/concerts/austin-neill.webp"
                                 alt="Un chanteur faisant un concert"
                             />
                             <img
                                 data-gallery-tag="Entreprises"
                                 class="gallery-item"
+                                loading="lazy"
                                 src="./assets/images/gallery/entreprise/mateus-campos.webp"
                                 alt="Une Femme contente devant un ordinateur"
                             />
