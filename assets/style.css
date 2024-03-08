@@ -435,4 +435,11 @@ address {
 	.picture {
 		width: 80%;
 	}
+
+	.addresse, .contact-tel, .horaire {
+		font-size: 11px;
+	}
+
+
+
 }
