@@ -256,6 +256,12 @@ form input {
 	margin-bottom: 20px;
 }
 
+form input::placeholder, form textarea::placeholder {
+	color: black;
+	font-weight: 600;
+	font-size: 15px;
+}
+
 form textarea {
 	width: 100%;
 	background-color: transparent;
