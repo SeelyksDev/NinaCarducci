@@ -167,8 +167,7 @@ body {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
-	font-size: 18px;
-
+	font-size: calc(1.375rem + 1.5vw);
 }
 
 .quote__author {
