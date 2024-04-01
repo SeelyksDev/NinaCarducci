@@ -167,7 +167,7 @@ body {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
-	font-size: 38px;
+	font-size: calc(1.375rem + 1.5vw);
 }
 
 .quote__author {
@@ -253,6 +253,12 @@ form input {
 	border: solid 1px;
 	height: 2.5em;
 	margin-bottom: 20px;
+}
+
+form input::placeholder, form textarea::placeholder {
+	color: black;
+	font-weight: 600;
+	font-size: 15px;
 }
 
 form textarea {
