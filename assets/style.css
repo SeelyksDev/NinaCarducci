@@ -168,7 +168,6 @@ body {
 	font-style: italic;
 	font-weight: 300;
 	font-size: 38px;
-
 }
 
 .quote__author {
@@ -254,12 +253,6 @@ form input {
 	border: solid 1px;
 	height: 2.5em;
 	margin-bottom: 20px;
-}
-
-form input::placeholder, form textarea::placeholder {
-	font-weight: bold;
-	color: black;
-	font-size: 15px;
 }
 
 form textarea {
